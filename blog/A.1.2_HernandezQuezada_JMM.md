@@ -36,9 +36,9 @@ Realizar un sensor medidor de luz (lux) a través de un circuito electrónico, u
 
     | Cantidad | Descripción                      | Fuente de consulta |
     | -------- | -------------------------------- | ------------------ |
-    | 1        | Sensor Fotoresistencia LDR de 2M |          https://prometec.mx/producto/ldr-sensor-de-luz/          |
-    | 1        | Resistencia 1k                   |         https://tostatronic.com/store/es/componentes-pasivos/887-resistencia-1k-ohms-14w.html           |
-    | 1        | Fuente de alimentación de 5v.    |          https://www.yescomusa.com/products/30v-precision-variable-voltage-power-supply-dc-converter          |
+    | 1        | Sensor Fotoresistencia LDR de 2M |          [**Prometec**](https://prometec.mx/producto/ldr-sensor-de-luz/)          |
+    | 1        | Resistencia 1k                   |         [**Tostranic**](https://tostatronic.com/store/es/componentes-pasivos/887-resistencia-1k-ohms-14w.html)           |
+    | 1        | Fuente de alimentación de 5v.    |          [**YescomUSA**](https://www.yescomusa.com/products/30v-precision-variable-voltage-power-supply-dc-converter)          |
 
 2. Considerando que el elemento LDR es un sensor fotoresistivo es decir varia su resistencia en base a la cantidad de luz que incide sobre el, **Que observa en el grafico siguiente?** 
    
