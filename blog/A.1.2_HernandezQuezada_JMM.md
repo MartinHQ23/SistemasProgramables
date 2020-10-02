@@ -68,13 +68,94 @@ Pudimos observar que las resistencias varían su valor en función dependiendo d
 
     | Condicion          |  Impedancia en fotoresistencia | Voltaje Vout teórico | Voltaje Vout medido | %  V.Medido/ V.Teórico |
     | --------------- | ----------------------------- | -------------------- | ------------------- | ---------------------- |
-    | Ausencia de luz |
-    | Luz ambiental   |
-    | Luz intensa     |
+    | Ausencia de luz |**180 kohms** | **0.027V** | **0.0277V** | **100 %** |
+    | Luz ambiental   |**979ohms** | **2.526V** | **2.52V** | **99.76 %** |
+    | Luz intensa     |**506omhs** | **3.320V** | **3.32V** | **100 %** |
 
+### **Desarollo**
+**AUSENCIA DE LUZ** :white_check_mark:
+ ```
+ Vout = Vin * R2 / R1+R2
+ Vout = 5 * 1000 / 180000 + 1000 
+ Vout = 0.027V
+
+ Porcentaje = V.Medido / V. Teórico * 100
+ Porcentaje = 0.0277V / 0.027V = 1 *(100)
+ Porcentaje = 100%
+ 
+  ```
+**LUZ AMBIENTAL** :white_check_mark:
+ ```
+ Vout = Vin * R2 / R1+R2
+ Vout = 5 * 1000 / 979 + 1000 
+ Vout = 2.526V
+
+ Porcentaje = V.Medido / V. Teórico * 100
+ Porcentaje = 2.52V / 2.526V = 0.9976 *(100)
+ Porcentaje = 99.76%
+ 
+  ```
+
+  **LUZ INTENSA** :white_check_mark:
+ ```
+ Vout = Vin * R2 / R1+R2
+ Vout = 5 * 1000 / 506 + 1000 
+ Vout = 3.320V
+
+ Porcentaje = V.Medido / V. Teórico * 100
+ Porcentaje = 3.32V / 3.320V = 1 *(100)
+ Porcentaje = 100%
+ 
+  ```
 8. **Grafique** a través de los valores registrados en la tabla anterior de tal manera que se pueda observar el comportamiento de la curva del componente LDR e **inserte la grafica**.
-9. Inserte imágenes de **evidencias** tales como son reuniones  de los integrantes del equipo realizadas para el desarrollo de la actividad
+
+ <p align="center"> 
+        <img alt="Logo" src="../img/Evidencias/grafica.png">
+    </p>
+
+
+9.  Inserte imágenes de **evidencias** tales como son reuniones  de los integrantes del equipo realizadas para el desarrollo de la actividad
+
+ <p align="center"> 
+        <img alt="Logo" src="../img/Evidencias/E1.png" width=400 height=350>
+    </p>
+ <p align="center"> 
+        <img alt="Logo" src="../img/Evidencias/E2.png" width=400 height=400>
+    </p>
+     <p align="center"> 
+        <img alt="Logo" src="../img/Evidencias/E3.png" width=400 height=350>
+    </p>
+     <p align="center"> 
+        <img alt="Logo" src="../img/Evidencias/E4.png" width=400 height=300>
+    </p>
+     <p align="center"> 
+        <img alt="Logo" src="../img/Evidencias/E5.png" width=500 height=200>
+    </p>
+    <p align="center"> 
+        <img alt="Logo" src="../img/Evidencias/E6.png" width=500 height=200>
+    </p>
+    <p align="center"> 
+        <img alt="Logo" src="../img/Evidencias/E7.png" width=500 height=200>
+    </p>
+
+
 10. Incluya las conclusiones individuales y resultados observados durante el desarrollo de la actividad.
+
+### **Conclusion**
+**HERNANDEZ QUEZADA MARTIN**
+ ```
+Los sensores LDR son algo que muchas personas desconocemos su funcionamiento, en lo personal jamás había utilizado (por lo menos simulado en Tinkercad) este sensor me resulta realmente interesante el poder ver que entre menos luz haya la resistencia es mucho mayor, pues cualquiera pensaría que esto seria totalmente al revés, una vez que logramos implementarlo, me dio la oportunidad de conocer un poco mas de los sensores, que hasta el momento sigo aprendiendo sobre ellos y espero seguir mejorando en el tema, además claro el haber utilizado la herramienta Tinkercad para realizarlo es una manera muy útil de ejecutar la simulación de estas practicas. 
+  ```
+
+**NAVARRO ROSAS MARTIN IVAN**
+ ```
+Como conclusion podemos decir que los LDR tienen un funcionamiento muy interesante debido a que estos varian su resistencia en funcion de las luces que estos mismos reciben, si estos reciben mas luz su resistencia sera mas alta por lo que el voltaje disminuye y viceversa si este no recibe luz. Se podrian utilizar en diversos circuitos donde se requiera como un tipo sensor de luz practicamente el LDR e implementarlo como lo hicimos en esta practica.
+  ```
+**SANDOVAL GORGONIO JUAN PABLO**
+ ```
+Esta practica me pareció interesante al realizar por primera vez una simulación en Tinkercad además de utilizar el sensor LDR, aunque al principio me confundía mucho, al final de la practica y con ayuda del profesor mediante las clases, pude comprender mejor como realizar esta practica para poder entregarla con éxito.
+  ```
+
 
 ### :bomb: Rubrica
 
@@ -85,4 +166,10 @@ Pudimos observar que las resistencias varían su valor en función dependiendo d
 | Demostración  | El alumno se presenta durante la explicación de la funcionalidad de la actividad?            | 20      |
 | Conclusiones  | Se incluye una opinión personal de la actividad  por cada uno de los integrantes del equipo? | 10      |
 
-:rotating_light: [**Repositorio**](https://github.com/MartinHQ23/SistemasProgramables)
+**Repositorios**
+
+:house: [**Repositorio - HERNANDEZ QUEZADA MARTIN**](https://github.com/MartinHQ23/SistemasProgramables)
+
+:house: [**Repositorio - NAVARRO ROSAS MARTIN IVAN**](https://github.com/MartinNavarro17/REPOSITORIO-SISTEMAS-PROGRAMABLES)
+
+:house: [**Repositorio - SANDOVAL GORGONIO JUAN PABLO**](https://github.com/JuanPSG/SistemasProgramables)
