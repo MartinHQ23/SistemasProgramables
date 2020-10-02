@@ -110,7 +110,7 @@ Pudimos observar que las resistencias varían su valor en función dependiendo d
 8. **Grafique** a través de los valores registrados en la tabla anterior de tal manera que se pueda observar el comportamiento de la curva del componente LDR e **inserte la grafica**.
 
  <p align="center"> 
-        <img alt="Logo" src="../img/Evidencias/grafica.png">
+        <img alt="Logo" src="../img/Evidencias/Grafica.png">
     </p>
 
 
