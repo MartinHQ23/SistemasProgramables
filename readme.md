@@ -30,6 +30,7 @@ Debilidades Python, Java y SQL
 - [C1.1 Cuestionario Electrónica Básica y sus Elementos](/blog/C1.1_HernandezQuezada_JMM.md)
 - [C1.2 Circuito Electrónico Básico](/blog/C1.2_HernandezQuezada_JMM.md) 
 - [C1.3 Circuito electrónico divisor de tension](/blog/C1.3_HernandezQuezada_JMM.md)
+- [A.1.2 Realizar un sensor medidor de luz (lux) a través de un circuito electrónico, utilizando un simulador, y un LDR (Light dependent Resistor).](/blog/A.1.2_HernandezQuezada_JMM.md)
   
 ## :blue_book: Unidad 2
 - Pendiente
