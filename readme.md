@@ -25,11 +25,15 @@ Debilidades Python, Java y SQL
 
 ### Contenido 
 ## :green_book: Unidad 1
+**Individual**
 - [C0.1 Integrar Equipos de Trabajo](/blog/C0.1_HernandezQuezada_JMM.md)
 - [C0.2 Cuestionario I4.0](/blog/C0.2_HernandezQuezada_jmm.md)
 - [C1.1 Cuestionario Electrónica Básica y sus Elementos](/blog/C1.1_HernandezQuezada_JMM.md)
 - [C1.2 Circuito Electrónico Básico](/blog/C1.2_HernandezQuezada_JMM.md) 
 - [C1.3 Circuito electrónico divisor de tension](/blog/C1.3_HernandezQuezada_JMM.md)
+- [C1.4 Circuito electrónico para el acondicionamiento de señal con un amplificador operacional](/blog/C1.4_HernandezQuezada_JMM.md)
+
+**Equipo**
 - [A.1.2 Realizar un sensor medidor de luz (lux) a través de un circuito electrónico, utilizando un simulador, y un LDR (Light dependent Resistor).](/blog/A.1.2_HernandezQuezada_JMM.md)
   
 ## :blue_book: Unidad 2
