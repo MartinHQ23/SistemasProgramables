@@ -32,6 +32,7 @@ Debilidades Python, Java y SQL
 - [C1.2 Circuito Electrónico Básico](/blog/C1.2_HernandezQuezada_JMM.md) 
 - [C1.3 Circuito electrónico divisor de tension](/blog/C1.3_HernandezQuezada_JMM.md)
 - [C1.4 Circuito electrónico para el acondicionamiento de señal con un amplificador operacional](/blog/C1.4_HernandezQuezada_JMM.md)
+- [C1.5 Tipo de sensores de acuerdo con su uso aplicativo.](/blog/C1.5_HernandezQuezada_JMM.md)
 
 **Equipo**
 - [A.1.2 Realizar un sensor medidor de luz (lux) a través de un circuito electrónico, utilizando un simulador, y un LDR (Light dependent Resistor).](/docs/A.1.2_HernandezQuezada_JMM.md)
