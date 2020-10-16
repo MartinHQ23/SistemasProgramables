@@ -53,7 +53,7 @@ Realizar un sensor medidor de temperatura a través de un circuito electrónico,
 </p>
 
 <p align="center">
-    <img alt="Logo" src="../img/C1.4.png" width= height=>
+    <img alt="Logo" src="../img/C1.4_.png" width=400 height=300>
 </p>
 
 3. Calcule, mida y registre los valores solicitados para Vout1, bajos las 3 condiciones requeridas en la tabla anexa.
