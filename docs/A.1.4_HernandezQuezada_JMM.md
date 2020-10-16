@@ -72,7 +72,7 @@ Realizar un sensor medidor de temperatura a través de un circuito electrónico,
 </p>
 
 <p align="center">
-    <img alt="Logo" src="../img/C1.4-2.PNG") width=400 height=300>
+    <img alt="Logo" src="../img/C1.4-2.png") width=400 height=300>
 </p>
 
 
