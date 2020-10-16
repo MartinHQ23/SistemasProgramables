@@ -56,13 +56,13 @@ Realizar un sensor medidor de temperatura a través de un circuito electrónico,
     <img alt="Logo" src="../img/C1.4.png" width= height=>
 </p>
 
-1. Calcule, mida y registre los valores solicitados para Vout1, bajos las 3 condiciones requeridas en la tabla anexa.
+3. Calcule, mida y registre los valores solicitados para Vout1, bajos las 3 condiciones requeridas en la tabla anexa.
 
 | Numero | Condición | Voltaje Vout1 medido | Voltaje en R1 medido | Temperatura indicada |
 | ------ | --------- | -------------------- | -------------------- | -------------------- |
-| 1      | Mínima    |                      |                      |                      |
-| 2      | Media     |                      |                      |                      |
-| 3      | Máxima    |                      |                      |                      |
+| 1      | Mínima    |       **99.9mV**           |      **11mV**                |      **-40 °C**                |
+| 2      | Media     |     **749mV**              |          **11mV**            |        **25 °C**              |
+| 3      | Máxima    | **1.75 V**                 |        **11mV**              |             **125 °C**         |
 
 4. Utilizando la imagen del transistor TMP36 que corresponde a la etapa 1, conecte la terminal Vout1 a la terminal no inversora del LM741, y ensamble el circuito correspondiente a la etapa 2.
 
@@ -71,20 +71,76 @@ Realizar un sensor medidor de temperatura a través de un circuito electrónico,
 
 </p>
 
+<p align="center">
+    <img alt="Logo" src="../img/C1.4-2.PNG") width=400 height=300>
+</p>
+
+
 5. **Que valor deberá tener R3 en el circuito Etapa 2, para lograr obtener Vout2 = 5 volts,** para la condición máxima de temperatura que el sensor es capaz de detectar? Como se puede observar la resistencia R3 corresponde a un potenciómetro, sin embargo se pueden hacer arreglos de resistencias para lograr un ajuste fino.  Cual cree que sea la razón por la cual se esta solicitando un **ajuste a 5 Volts**?
-   
+
+**RESPUESTA** :white_check_mark:
+ ```
+ Vout = vin * (1+(R2/R1))
+ Vout = 5V
+ Vin = 1.75
+ R2 = 220 ohms
+
+ Despeje
+ ((5/ 1.75)-1) * 220 ohms = 408.57
+ R2 = 408.57 ohms
+ ```
+Cual cree que sea la razón por la cual se esta solicitando un **ajuste a 5 Volts**?
+ ```
+ Al ser la fuente de 5 voltios, esta es su maxima capacidad por lo que se amplia el rango para utilizar en comparacion al original de 1.75V, ademas de tener una mayor resolucion en el momento que se desea leer los valores.
+  ```
+
 6. Una vez que se ha ajustado el valor R3 dejalo asi y registre los valores solicitados para Vout2, para las 3 condiciones requeridas en la tabla anexa.
 
 | Numero | Condición        | Voltaje en R2 medido | Voltaje en Vout2 medido | Temperatura indicada |
 | ------ | ---------------- | -------------------- | ----------------------- | -------------------- |
-| 1      | Condición mínima |                      |                         |                      |
-| 2      | Condición media  |                      |                         |                      |
-| 3      | Condición máxima |                      |                         |                      |
+| 1      | Condición mínima |             **99.9mV**         |    **286mV**                     |   **-40 °C**                   |
+| 2      | Condición media  |       **949mV**               |   **2.71mV**                      |       **44 °C**               |
+| 3      | Condición máxima |       **1.74V**               |    **4.53mV**                     |         **125 °C**             | 
 
 7. Grafique Vout1 y Vout2, para las tres condiciones anteriores, considerando en "X" los valores de temperatura y para "Y" los valores de voltaje, y coloque dentro de este apartado.
-   
-8. Incluya las conclusiones individuales y resultados observados durante el desarrollo de la actividad.
 
+<p align="center">
+    <img alt="Logo" src="../img/1.4_graf.png") width= height=>
+</p>
+
+8. Inserte imágenes de evidencias tales como son reuniones de los integrantes del equipo realizadas para
+el desarrollo de la actividad
+
+<p align="center">
+    <img alt="Logo" src="../img/Evidencias/1.4_E1.png") width= height=>
+</p>
+
+<p align="center">
+    <img alt="Logo" src="../img/Evidencias/1.4_E2.png") width= height=>
+</p>  
+
+<p align="center">
+    <img alt="Logo" src="../img/Evidencias/1.4_E3.png") width= height=>
+</p>
+<p align="center">
+    <img alt="Logo" src="../img/Evidencias/1.4_E4.png") width= height=>
+</p>
+
+9. Incluya las **conclusiones** individuales y resultados observados durante el desarrollo de la actividad.
+    
+ **-Hernández Quezada Martín :** 
+```
+El sensor de temperatura TMP36 me parece una herramienta útil al momento de necesitar conocer valores en las temperaturas, por su parte el amplificador que a pesar de nunca haberlo utilizado antes y desconocer su funcionamiento, me permitió darme cuenta de el alto rango de capacidad que puedo aumentar gracias a este, tal vez en un futuro vaya a necesitar el uso de ambos y gracias a esta practica, los podre utilizar de la manera esperada.
+```
+ **-Navarro Rosas Martin Ivan :**
+```
+El comportamiento del sensor de temperatura tmp36 como pudimos apreciar nos puede ser muy util a la hora de realizar practicas que requieran de un control de temperatura, asi como un invernadero o ya sea para un gestiones termicas de algun producto electronico, asi como el uso de amplificadores operacionales para aumentan la salida de voltaje de estos mismos.
+```
+ **-Sandoval Gorgonio Juan Pablo :**
+```
+En esta practica se observa el comportamiento del sensor TMP36, pudimos observar que el voltaje que consume es proporcional a la temperatura registrada.
+Y que es una buena opción si se desea obtener temperaturas ya que es muy preciso y facil de usar.
+```
 ___
 
 ### :bomb: Rubrica
