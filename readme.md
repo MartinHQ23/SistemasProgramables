@@ -39,7 +39,12 @@ Debilidades Python, Java y SQL
 - [A.1.3 Realizar una investigación y presentación para ser expuesta en clase sobre el tema de sensores.](/docs/A.1.3_HernandezQuezada_JMM.md)
 - [A.1.4 Realizar un sensor medidor de temperatura a través de un circuito electrónico, utilizando un simulador, y un Transistor TMP36.](/docs/A.1.4_HernandezQuezada_JMM.md)  
 ## :blue_book: Unidad 2
-- Pendiente
+**Individual**
+- [C2.1 Cuestionario Actuadores y su clasificacion](/blog/C2.1_HernandezQuezada_JMM.md)
+
+
+**Equipo**
+
 
 ## :orange_book: Unidad 3
 - Pendiente
