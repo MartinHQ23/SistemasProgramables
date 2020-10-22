@@ -41,7 +41,7 @@ Debilidades Python, Java y SQL
 ## :blue_book: Unidad 2
 **Individual**
 - [C2.1 Cuestionario Actuadores y su clasificacion](/blog/C2.1_HernandezQuezada_JMM.md)
-
+- [C2.2 Cuestionario Actuadores Eléctricos](/blog/C2.2_HernandezQuezada_JMM.md)
 
 **Equipo**
 
