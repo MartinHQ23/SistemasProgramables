@@ -42,7 +42,7 @@ Debilidades Python, Java y SQL
 **Individual**
 - [C2.1 Cuestionario Actuadores y su clasificacion](/blog/C2.1_HernandezQuezada_JMM.md)
 - [C2.2 Cuestionario Actuadores Eléctricos](/blog/C2.2_HernandezQuezada_JMM.md)
-
+- [C2.3 C2.3 Circuito temporizador 555](/blog/C2.3_HernandezQuezada_JMM.md)
 **Equipo**
 
 
