@@ -45,7 +45,7 @@ Debilidades Python, Java y SQL
 - [C2.3 C2.3 Circuito temporizador 555](/blog/C2.3_HernandezQuezada_JMM.md)
 
 **Equipo**
-
+- [A2.1 Investigación sobre actuadores eléctricos](/docs/A.2.1_HernandezQuezada_JMM.md)
 
 ## :orange_book: Unidad 3
 - Pendiente
