@@ -46,7 +46,7 @@ Debilidades Python, Java y SQL
 
 **Equipo**
 - [A2.1 Investigación sobre actuadores eléctricos](/docs/A.2.1_HernandezQuezada_JMM.md)
-
+- [A2.2 Circuito temporizador 555 y motor eléctrico](/docs/A.2.2_HernandezQuezada_JMM.md)
 ## :orange_book: Unidad 3
 - Pendiente
 
