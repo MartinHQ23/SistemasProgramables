@@ -47,7 +47,7 @@
     <img alt="Logo" src="../img/C2.x_CircuitoNe555MotorDC.png" width= height=>
 </p>
 
-1. Como se podrá observar en el circuito anterior existe un area identificada como "Red de tiempo" y otra "Filtro de desacople", **explique el proposito de ambos terminologias**. 
+2. Como se podrá observar en el circuito anterior existe un area identificada como "Red de tiempo" y otra "Filtro de desacople", **explique el proposito de ambos terminologias**. 
 
 **Red de tiempo:** Este se utiliza para establecer el tiempo de encendido del pulso de salida.
 
