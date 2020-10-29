@@ -43,29 +43,82 @@
 | 1        | Diodo Led Rojo                      [**Geekbotelectronics**](http://www.geekbotelectronics.com/producto/led-difuso-rojo-5-mm/)   |
 
 1. Utilice el circuito electrónico de la imagen siguiente y ensamble la etapa 1 dentro del simulador.
+
 <p align="center">
-    <img alt="Logo" src="../img/C2.x_CircuitoNe555MotorDC.png" width= height=>
+    <img alt="Logo" src="../img/C2.x_CircuitoNe555MotorDC.png" width=850 height=350>
 </p>
 
 2. Como se podrá observar en el circuito anterior existe un area identificada como "Red de tiempo" y otra "Filtro de desacople", **explique el proposito de ambos terminologias**. 
 
-**Red de tiempo:** Este se utiliza para establecer el tiempo de encendido del pulso de salida.
+**- Red de tiempo:** Este se utiliza para establecer el tiempo de encendido del pulso de salida.
 
-**Filtro de desacople:** Este se utiliza un condensador de 47uf para evitar la aparicion de ruido que pudiera afectar los niveles de umbral, y de disparo.
+**- Filtro de desacople:** Este se utiliza un condensador de 47uf para evitar la aparicion de ruido que pudiera afectar los niveles de umbral, y de disparo.
 
 3. Continuando con la imagen anterior, observe se muestra la ecuación Ct= 1.1 * R1 * C1, la cual es utilizada para establecer el tiempo de **encendido del pulso de salida**. Basándose en esa ecuación anterior calcule los valores de **R1 y C1** si se desea mantener encendido el pulso de salida, dada las 3 condiciones requeridas en la tabla anexa.
 
     | Numero | Condición  | Valor de R1 | Valor de C1 |
     | ------ | ---------- | ----------- | ----------- |
-    | 1      | 3 segundos |             |             |
-    | 2      | 5 segundos |             |             |
-    | 3      | 8 segundos |             |             |
+    | 1      | 3 segundos |     58 kohm |  47µF         |
+    | 2      | 5 segundos |    96kohm         |      47µF       |
+    | 3      | 8 segundos |    154kohm        |          47µF   |
 
-2. Una vez que se halla completado la tabla anterior, inicie la simulación para cualquiera de las tres condiciones y observe el comportamiento del Led;  **explique su observación**.
 
-3. Ensamble la etapa 2 e integre la terminal del pulso de salida a la entrada de la base del transistor de esta segunda etapa.
-4. Una vez concluido el paso anterior, elija una de las 3 condiciones registradas en la tabla anterior y observe el comportamiento del motor DC; **explique su observación**.
-5. Una vez que el tiempo de encendido del pulso de salida de la etapa 1 se completo, **que sucede con el motor DC? Explique la razon de este comportamiento?**
+  **Operaciones:**  
+
+---    
+**3 segundos**
+
+*Resistencia exacta*  
+```
+    R = 3s / (1.1 * 0.000047 F) 
+    R = 58,027 ohms   
+```
+*Resistencia comercial cercana* 
+```
+  56komh + 2kohm = 58kohm 
+```
+*Tiempo Calculado* 
+```
+  Ct= 1.1 * 58,000ohm * 0.000047F = 2.998s 
+```
+**5 segundos**  
+
+Resistencia exacta  
+```
+    R = 5s / (1.1 * 0.000047 F)
+    R = 96,711 ohms 
+```
+Resistencia comercial cercana 
+```
+    82komh + 15kohm = 97kohm
+```
+Tiempo Calculado  
+```
+    Ct= 1.1 * 97,000ohm * 0.000047F = 5.014s
+```
+
+**8 segundos**  
+
+Resistencia exacta  
+```
+    R = 8s / (1.1 * 0.000047 F)
+    R = 154,738 ohm
+```
+Resistencia comercial cercana 
+```
+    150komh + 5kohm = 155kohm
+```
+Tiempo Calculado  
+```
+    Ct= 1.1 * 155,000ohm * 0.000047F = 8.013s
+```
+----
+
+4. Una vez que se halla completado la tabla anterior, inicie la simulación para cualquiera de las tres condiciones y observe el comportamiento del Led;  **explique su observación**.
+
+5. Ensamble la etapa 2 e integre la terminal del pulso de salida a la entrada de la base del transistor de esta segunda etapa.
+6. Una vez concluido el paso anterior, elija una de las 3 condiciones registradas en la tabla anterior y observe el comportamiento del motor DC; **explique su observación**.
+7. Una vez que el tiempo de encendido del pulso de salida de la etapa 1 se completo, **que sucede con el motor DC? Explique la razon de este comportamiento?**
 ### :bomb: Rubrica
 
 | Criterios     | Descripción                                                                                  | Puntaje |
