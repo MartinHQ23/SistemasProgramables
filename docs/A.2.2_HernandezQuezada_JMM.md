@@ -48,7 +48,9 @@
     <img alt="Logo" src="../img/C2.x_CircuitoNe555MotorDC.png" width=850 height=350>
 </p>
 
-2. Como se podrá observar en el circuito anterior existe un area identificada como "Red de tiempo" y otra "Filtro de desacople", **explique el proposito de ambos terminologias**. 
+:rotating_light: [**CIRCUITO Etapa 1 y Etapa 2**](https://www.tinkercad.com/things/8vBtcu5VQ8N-fabulous-jarv/editel?sharecode=I_n_7LdxxziqMZImxdTuF3ch_FGQA0iOCl5rhlbb30Y&fbclid=IwAR0mjH38uy6I9ojf_nECcA1DtHR02QzIA3NFgDYhxj9udAdllA43nJBn8tg) 
+
+1. Como se podrá observar en el circuito anterior existe un area identificada como "Red de tiempo" y otra "Filtro de desacople", **explique el proposito de ambos terminologias**. 
 
 **- Red de tiempo:** Este se utiliza para establecer el tiempo de encendido del pulso de salida.
 
@@ -68,57 +70,105 @@
 ---    
 **3 segundos**
 
-*Resistencia exacta*  
 ```
+Resistencia exacta 
+
     R = 3s / (1.1 * 0.000047 F) 
     R = 58,027 ohms   
-```
-*Resistencia comercial cercana* 
-```
+
+Resistencia comercial cercana
+
   56komh + 2kohm = 58kohm 
-```
-*Tiempo Calculado* 
-```
+
+Tiempo Calculado
+
   Ct= 1.1 * 58,000ohm * 0.000047F = 2.998s 
 ```
 **5 segundos**  
 
-Resistencia exacta  
 ```
+Resistencia exacta  
+
     R = 5s / (1.1 * 0.000047 F)
     R = 96,711 ohms 
-```
+
 Resistencia comercial cercana 
-```
+
     82komh + 15kohm = 97kohm
-```
+
 Tiempo Calculado  
-```
+
     Ct= 1.1 * 97,000ohm * 0.000047F = 5.014s
 ```
 
 **8 segundos**  
-
-Resistencia exacta  
+  
 ```
+Resistencia exacta
+
     R = 8s / (1.1 * 0.000047 F)
     R = 154,738 ohm
-```
+
 Resistencia comercial cercana 
-```
+
     150komh + 5kohm = 155kohm
-```
+
 Tiempo Calculado  
-```
+
     Ct= 1.1 * 155,000ohm * 0.000047F = 8.013s
 ```
 ----
 
 4. Una vez que se halla completado la tabla anterior, inicie la simulación para cualquiera de las tres condiciones y observe el comportamiento del Led;  **explique su observación**.
 
+**Respuesta** 
+```
+El LED se enciende dependiendo la condicion que se le ponga (ya sean 3, 5 u 8 segundos), al cumplirse dicho tiempo el LED se apaga y al presionar el boton, el LED vuelve a encenderse por el tiempo de la condicion dada.
+```
 5. Ensamble la etapa 2 e integre la terminal del pulso de salida a la entrada de la base del transistor de esta segunda etapa.
+<p align="center">
+    <img alt="Logo" src="../img/2.2Circuito_JMM.png" width= height=>
+</p>
+
 6. Una vez concluido el paso anterior, elija una de las 3 condiciones registradas en la tabla anterior y observe el comportamiento del motor DC; **explique su observación**.
+
+**Respuesta** 
+```
+En el motor sucede exactamente lo mismo que el LED, este enciende el mismo tiempo de acuerdo a la condicion a la que este y al cumplirse el tiempo este se apaga, pero al presionar al boton, este vuelve a encender dependiendo el tiempo de la condicion dada, esto gracias a la funcion del pulso de salida del 555.
+```
 7. Una vez que el tiempo de encendido del pulso de salida de la etapa 1 se completo, **que sucede con el motor DC? Explique la razon de este comportamiento?**
+
+**Respuesta** 
+```
+Este al igual que el led, se apaga debido a que termino el tiempo que la etapa 1 proporciono corriente al transistor.
+
+```
+
+8. Inserte imágenes de evidencias tales como son reuniones de los integrantes del equipo realizadas para el desarrollo de la actividad.
+<p align="center">
+    <img alt="Logo" src="../img/Evidencias/2.2_E2.png" width= height=>
+</p>
+<p align="center">
+    <img alt="Logo" src="../img/Evidencias/2.2_E1.png" width= height=>
+</p>
+<p align="center">
+    <img alt="Logo" src="../img/Evidencias/2.2_E3.png" width= height=>
+</p>
+
+9.  Incluya las **conclusiones** individuales y resultados observados durante el desarrollo de la actividad.
+
+- **Hernández Quezada Martín**
+
+En esta practica observamos la interacción entre 2 etapas en el circuito, donde el LM555 compartía corriente entre estas 2 etapas haciendo que el LED y el Motor encendieran dependiendo de la condición que le diéramos en la simulación. Y aunque al principio no le entendíamos muy bien y el circuito se nos complico un poco, gracias al profesor nos dimos cuenta que no funcionaba del todo nuestra forma de trabajar, ya que no todos estábamos familiarizados con el circuito y por ende no lo comprendíamos del todo, pero después de realizar las correcciones que presentamos en nuestro avance y trabajar juntos en el circuito, logramos terminar el circuito con éxito y con una nueva forma de trabajar en equipo, la cual es mas eficiente para todos. 
+
+- **Navarro Rosas Martín Ivan**
+
+En Conclusión se puede decir que el circuito integrado 555(temporizador) es muy versátil debido a que puede ponerse a trabajar con un rango muy amplio de frecuencias ,en cuanto al circuito realizado en esta práctica podemos decir que la red de tiempo nos permite configurar el tiempo de encendido del timer en si, y con la red de desacople se hace una excitación por medio de la terminal de descarga , que permite que el mini motor de corriente continua sea encendido y por lo tanto comience a rotar.
+
+- **Sandoval Gorgonio Juan Pablo** 
+
+Lo que entendí de esta práctica es que este circuito se puede usar para las maquinas de producción que al momento de estar en producción se mantiene encendido el led para indicar que está en funcionamiento. Se nos dificultó realizar esta práctica, el propósito de este fue crear una red para controlar cuanto tiempo funcionará el motor y a su vez el led se mantenga encendido cuando el motor este en funcionamiento.
+
 ### :bomb: Rubrica
 
 | Criterios     | Descripción                                                                                  | Puntaje |
