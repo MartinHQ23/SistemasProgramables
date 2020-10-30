@@ -159,7 +159,7 @@ Este al igual que el led, se apaga debido a que termino el tiempo que la etapa 1
 
 - **Hernández Quezada Martín**
 
-En esta practica observamos la interacción entre 2 etapas en el circuito, donde el LM555 compartía corriente entre estas 2 etapas haciendo que el LED y el Motor encendieran dependiendo de la condición que le diéramos en la simulación. Y aunque al principio no le entendíamos muy bien y el circuito se nos complico un poco, gracias al profesor nos dimos cuenta que no funcionaba del todo nuestra forma de trabajar, ya que no todos estábamos familiarizados con el circuito y por ende no lo comprendíamos del todo, pero después de realizar las correcciones que presentamos en nuestro avance y trabajar juntos en el circuito, logramos terminar el circuito con éxito y con una nueva forma de trabajar en equipo, la cual es mas eficiente para todos. 
+En esta actividad observamos la interacción entre 2 etapas en el circuito, donde el LM555 compartía corriente entre estas 2 etapas haciendo que el LED y el Motor encendieran dependiendo de la condición que le diéramos en la simulación. Y aunque al principio no le entendíamos muy bien y el circuito se nos complico un poco, gracias al profesor nos dimos cuenta que no funcionaba del todo nuestra forma de trabajar, ya que no todos estábamos familiarizados con el circuito y por ende no lo comprendíamos del todo, pero después de realizar las correcciones que presentamos en nuestro avance y trabajar juntos en el circuito, logramos terminar el circuito con éxito y con una nueva forma de trabajar en equipo, la cual es mas eficiente para todos. 
 
 - **Navarro Rosas Martín Ivan**
 
