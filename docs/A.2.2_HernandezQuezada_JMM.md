@@ -50,7 +50,7 @@
 
 :rotating_light: [**CIRCUITO Etapa 1 y Etapa 2**](https://www.tinkercad.com/things/8vBtcu5VQ8N-fabulous-jarv/editel?sharecode=I_n_7LdxxziqMZImxdTuF3ch_FGQA0iOCl5rhlbb30Y&fbclid=IwAR0mjH38uy6I9ojf_nECcA1DtHR02QzIA3NFgDYhxj9udAdllA43nJBn8tg) 
 
-1. Como se podrá observar en el circuito anterior existe un area identificada como "Red de tiempo" y otra "Filtro de desacople", **explique el proposito de ambos terminologias**. 
+2. Como se podrá observar en el circuito anterior existe un area identificada como "Red de tiempo" y otra "Filtro de desacople", **explique el proposito de ambos terminologias**. 
 
 **- Red de tiempo:** Este se utiliza para establecer el tiempo de encendido del pulso de salida.
 
