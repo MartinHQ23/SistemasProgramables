@@ -48,7 +48,8 @@ Debilidades Python, Java y SQL
 - [A2.1 Investigación sobre actuadores eléctricos](/docs/A.2.1_HernandezQuezada_JMM.md)
 - [A2.2 Circuito temporizador 555 y motor eléctrico](/docs/A.2.2_HernandezQuezada_JMM.md)
 ## :orange_book: Unidad 3
-- Pendiente
+- [C3.1 Arduino IDE Salida Digital](/blog/C3.1_HernandezQuezada_JMM.md)
+- [C3.2 Arduino IDE Salida Digital](/blog/C3.2_HernandezQuezada_JMM.md)
 
 ---
 ### :necktie: Datos del Asesor de la materia
