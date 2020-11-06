@@ -49,7 +49,8 @@ Debilidades Python, Java y SQL
 - [A2.2 Circuito temporizador 555 y motor eléctrico](/docs/A.2.2_HernandezQuezada_JMM.md)
 ## :orange_book: Unidad 3
 - [C3.1 Arduino IDE Salida Digital](/blog/C3.1_HernandezQuezada_JMM.md)
-- [C3.2 Arduino IDE Salida Digital](/blog/C3.2_HernandezQuezada_JMM.md)
+- [C3.2 Arduino IDE Entrada Digital e impresion serial](/blog/C3.2_HernandezQuezada_JMM.md)
+- [C3.3 Arduino IDE Entrada Analoga y funcion serial](/blog/C3.3_HernandezQuezada_JMM.md)
 
 ---
 ### :necktie: Datos del Asesor de la materia
