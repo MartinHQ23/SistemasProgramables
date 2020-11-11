@@ -115,7 +115,7 @@ ___
 
 - **Hernández Quezada Martín**
 
-Esta actividad nos dio a conocer como trabajan y funcionan los sensores de ultrasónicos de proximidad, específicamente el HC-SR04 de 3 pines, donde gracias a la simulación se pudo ver de una manera mas amplia como trabaja dicho sensor y como al colocar objetos muy cerca no los detecta, al igual que si se ponen objetos a mas de 365cm, en la actividad colocamos nuestro código en arduino, ampliando así nuestro conocimiento en dicho programa para poder implementar la función de este y así poder completar con éxito la actividad.
+Esta actividad nos dio a conocer como trabajan y funcionan los sensores de ultrasónicos de proximidad, específicamente el HC-SR04 de 3 pines, donde gracias a la simulación se pudo ver de una manera mas amplia como trabaja dicho sensor y como al colocar objetos muy cerca no los detecta, al igual que si se ponen objetos a mas de 335cm, en la actividad colocamos nuestro código en arduino, ampliando así nuestro conocimiento en dicho programa para poder implementar la función de este y así poder completar con éxito la actividad.
 
 - **Navarro Rosas Martín Ivan**
 
