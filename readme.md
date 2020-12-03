@@ -58,6 +58,7 @@ Debilidades Python, Java y SQL
 **Equipo**
 - [A.3.1 Circuito sensor de deteccion de objetos](/docs/A.3.1_HernandezQuezada_JMM.md)
 - [A3.2 Circuito y programacion de un sensor de tactor con NodeMCU ESP32](/docs/A3.2_HernandezQuezada_JMM.md)
+- [A3.3 Circuito de medicion de temperatura a traves de un NodeMCU ESP32](/docs/A3.3_HernandezQuezada_JMM.md)
 ---
 ### :necktie: Datos del Asesor de la materia
 
