@@ -54,6 +54,7 @@ Debilidades Python, Java y SQL
 - [C3.4 Arduino IDE Entrada Salida, sensor y funcion serial](/blog/C3.4_HernandezQuezada_JMM.md)
 - [C3.6 Arduino IDE, ESP32 y Entrada Analogica](/blog/C3.6_HernandezQuezada_JMM.md)
 - [C3.7 Arduino IDE, ESP32 y PWM](/blog/C3.7_HernandezQuezada_JMM.md)
+- [C3.8 Arduino IDE, ESP32 y Sensor Touch](/blog/C3.8_HernandezQuezada_JMM.md)
 
 **Equipo**
 - [A.3.1 Circuito sensor de deteccion de objetos](/docs/A.3.1_HernandezQuezada_JMM.md)
