@@ -63,6 +63,7 @@ Debilidades Python, Java y SQL
 ## :closed_book: Unidad 4
 **Individual**
 - [C4.1  Protocolo Bluetooth y el NodeMCU ESP32](/blog/C4.1_HernandezQuezada_JMM.md)
+- [C4.2 Comunicacion por medio del protocolo Wi-Fi](/blog/C4.2_HernandezQuezada_JMM.md)
 
 
 **Equipo**
