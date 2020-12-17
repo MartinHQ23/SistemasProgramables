@@ -68,6 +68,7 @@ Debilidades Python, Java y SQL
 
 **Equipo**
 - [A4.1 Circuito de control para activar y desactivar un motor DC, utilizando NodeMCU ESP32 por medio de Bluetooth](/docs/A4.1_HernandezQuezada_JMM.md)
+- [A4.2 Circuito sensor de iluminación y actuación de luz NodeMCU ESP32 por medio de Wi-Fi](/docs/A4.2_HernandezQuezada_JMM.md)
 ---
 ### :necktie: Datos del Asesor de la materia
 
