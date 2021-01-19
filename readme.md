@@ -72,8 +72,11 @@ Debilidades Python, Java y SQL
 - [A4.2 Circuito sensor de iluminación y actuación de luz NodeMCU ESP32 por medio de Wi-Fi](/docs/A4.2_HernandezQuezada_JMM.md)
 
 ## :ledger: Unidad 5
-**Equipo**
+**Individual**
 - [C5.1 Arquitectura Cliente-Servidor, utilizando interface Node-red, ESP32 y un sensor](/blog/C5.1_HernandezQuezada_JMM.md)
+
+**Equipo**
+- [A5.1 Actividad Final Identificación del color de un objeto](/docs/A5.1_HernandezQuezada_JMM.md)
 
 ---
 ### :necktie: Datos del Asesor de la materia
