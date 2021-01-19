@@ -76,7 +76,7 @@ Debilidades Python, Java y SQL
 - [C5.1 Arquitectura Cliente-Servidor, utilizando interface Node-red, ESP32 y un sensor](/blog/C5.1_HernandezQuezada_JMM.md)
 
 **Equipo**
-- [A5.1 Actividad Final Identificación del color de un objeto](/docs/A5.1_HernandezQuezada_JMM.md)
+- [A5.1 Actividad Final Identificación del color de un objeto](/docs/A5.1_HernandezQuezadaMartin_JMM.md)
 
 ---
 ### :necktie: Datos del Asesor de la materia
